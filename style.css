@@ -1,0 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+body {
+  margin: 0 auto;
+  width: 800px;
+}
+
+header {
+  padding: 1rem 0;
+  border-bottom: 1px solid #dcdcdc;
+}
+
+main {
+  padding: 1rem 0;
+}
