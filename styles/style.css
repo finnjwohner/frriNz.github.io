@@ -52,4 +52,9 @@ button:hover {
 	background: #eee;
 }
 
+nav {
+	padding: 1rem 0;
+	border-top: 1px solid #dcdcdc;
+}
+
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
