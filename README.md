@@ -20,7 +20,7 @@ Jekyll is used in this website to dynamically display the posts, and provide lay
 The most complicated piece of Jekyll code in this repository is;
 ```
 {% for post in site.posts %}
-  {% if post.url == page.url %}
+	{% if post.url == page.url %}
 		{% continue %}
 	{% endif %}
 	<a href="{{ post.url }}">{{ post.title }}</a> / 
