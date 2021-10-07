@@ -39,11 +39,17 @@ a:hover {
 
 button {
 	border: 1px solid #dcdcdc;
-	padding: 0.1rem 0.3rem;
+	padding: 0.3rem 0.8rem;
+	background: white;
+	cursor: pointer;
 	outline: none;
 	-webkit-appearance: none;
 	-moz-appearance: none;
 	appearance: none;
+}
+
+button:hover {
+	background: #eee;
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
